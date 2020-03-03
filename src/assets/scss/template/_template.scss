@@ -1,0 +1,269 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles
+body,
+html,
+.body {
+  background: #f3f3f3 !important;
+}
+
+.white_space {
+  background-color: white;
+  height: 40px;
+}
+
+// HEADER STYLING
+
+.header_logo {
+  padding: 0 !important;
+  margin: 0 !important;
+
+  .dribbble_logo {
+    padding: 1rem 0;
+    width: 100px;
+  }
+}
+
+.header_image {
+}
+
+.artist_info {
+  font-family: helvetica, sans-serif;
+  text-decoration: none;
+  color: #999999;
+  font-weight: 300;
+  display: inline;
+  font-size: 13px;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+
+  a {
+    font-family: helvetica, sans-serif;
+    text-decoration: underline;
+    color: #999999;
+    font-size: 13px;
+  }
+}
+
+// BODY PORTFOLIO TIPS STYLING
+
+.portfolio_tips_column {
+  padding: 0 20px !important;
+}
+
+.portfolio_tips_text {
+  font-family: helvetica, sans-serif;
+  text-decoration: none;
+  color: #333;
+  font-weight: 300;
+  display: block;
+  font-size: 15px;
+  line-height: 24px;
+  margin: 0em 0 1em;
+  padding: 0 20px;
+
+  a {
+    font-family: helvetica, sans-serif;
+    text-decoration: underline;
+    color: #ea4c89;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+ul {
+  display: block;
+  padding-left: 80px;
+  p {
+    font-family: helvetica, sans-serif;
+    text-decoration: none;
+    color: #333;
+    font-weight: 300;
+    display: block;
+    font-size: 15px;
+    line-height: 24px;
+    margin: 0em 0;
+    padding: 0;
+  }
+  img {
+    width: 24px;
+    vertical-align: middle;
+    max-height: 24px;
+    display: inline-block;
+    padding: 0 10px;
+  }
+}
+
+.portfolio_tips_quote {
+  font-family: helvetica, sans-serif;
+  text-decoration: none;
+  color: #333;
+  font-weight: 300;
+  display: block;
+  font-size: 15px;
+  line-height: 20px;
+  margin: 0em 0 1em;
+  padding: 0 20px;
+  font-style: italic;
+
+  span {
+    color: #ea4c89;
+    font-family: helvetica, sans-serif;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+// BODY PORTFOLIO QUOTE STYLING
+
+.job_postings_column {
+  padding: 0 40px !important;
+
+  img {
+    width: 50px;
+  }
+
+  h4 {
+    font-family: helvetica, sans-serif;
+    text-decoration: underline;
+    color: #333;
+    font-size: 17px;
+
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+
+    a {
+      font-family: helvetica, sans-serif;
+      font-weight: bold;
+      text-decoration: none;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  p {
+    font-family: helvetica, sans-serif;
+    text-decoration: none;
+    color: #333;
+    font-weight: 300;
+    display: inline;
+    font-size: 15px;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .job_posting_sponsored {
+    // display: inline;
+    p {
+      font-family: helvetica, sans-serif;
+      text-decoration: none;
+      color: #999;
+      font-weight: 300;
+      display: inline;
+      font-size: 12px;
+      line-height: 24px;
+      margin: 0;
+      padding: 0;
+    }
+
+    img {
+      width: 10px !important;
+      max-height: 10px !important;
+      display: inline;
+    }
+  }
+
+  .job_posting_tip_title {
+    h4 {
+      font-family: helvetica, sans-serif;
+      text-decoration: none;
+      color: #333;
+      font-size: 20px;
+      font-weight: bold;
+      display: inline;
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  .job_posting_tip_content {
+    p {
+      font-family: helvetica, sans-serif;
+      text-decoration: none;
+      color: #333;
+      font-weight: 300;
+      display: block;
+      font-size: 15px;
+      line-height: 24px;
+      margin: 0em 0;
+      padding: 0;
+      a {
+        font-family: helvetica, sans-serif;
+        text-decoration: underline;
+        color: #ea4c89;
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+
+  .button_container {
+    text-align: center;
+    .button {
+      background-color: #ea4c89;
+      border-radius: 4px;
+      padding: 15px 30px;
+      display: inline-block;
+      a {
+        font-family: helvetica, sans-serif;
+        text-decoration: none;
+        color: #fff;
+        font-size: 13px;
+        line-height: 16px;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+}
+
+.footer_column {
+  padding: 0 40px !important;
+
+  .footer_text_container {
+    table > tbody > tr > th {
+      text-align: center;
+    }
+  }
+  p {
+    font-family: helvetica, sans-serif;
+    text-decoration: none;
+    color: #999999;
+    font-weight: 300;
+    display: inline;
+    font-size: 15px;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+
+    a {
+      font-family: helvetica, sans-serif;
+      text-decoration: none;
+      color: #999;
+      font-size: 13px;
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  img {
+    width: 50px;
+  }
+}
